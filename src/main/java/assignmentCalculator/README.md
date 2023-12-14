@@ -28,7 +28,7 @@ These instructions will help you set up and run the project on your local machin
 ### How to run
 
 1.Clone the repository:
-" "
+"https://github.com/Mavi7965/JavaAssignment.git"
 2. Run your commands or use handy buttons from your Ide.
 3. Run the program via "YearOfBirthCalculator" class. To see the test cases and the results of them, run the "UnitTests" class.
 

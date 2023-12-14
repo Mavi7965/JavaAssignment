@@ -48,6 +48,21 @@ These instructions will help you set up and run the project on your local machin
 - IntelliJ IDEA
 - JUnit and JUnit-Jupiter
 
+### Test Cases
+The program was tested with valid inputs including boundray values for age data.
+It was also tested valid age and invalid(empty) name.
+Additionally, it was tested with invalid ages when the name is occured clearly.
+
+1. Calculate the year of the birth with valid age and valid name:
+- age: 25, name:john, actual result is expected one which is : "Hello john! You were born in 1998"
+- age:130, name:yeliz, actual result is expected. The greatest boundray value was tested with this. 
+- age:1, name:jack, actual result is expected. The smallest boundray value was tested.
+2. The system does not calculate with invalid age.
+-age: 150, name:john, actual result is expected which is the error on console:Invalid input. Please enter a valid integer. The user can see "enter your age" until the right input which is between 1-130.
+
+3. The system does not calculate the age with empty name.
+-age:65, name:"" , the system gives us the error "Name cannot be empty.Enter a valid name." and quit the program. 
+
 
 #### License
 xxx
